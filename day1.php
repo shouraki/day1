@@ -6,4 +6,7 @@ Version: 1.0
 Author: Shouraki
 */
 
-// Plugin code goes here
+function myfirstplugin_active(){
+    add_option ('my_firstplugin_install_date', current('mysql'));
+}
+
